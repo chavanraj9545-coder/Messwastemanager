@@ -33,6 +33,7 @@ class User(Base):
     profile_image = Column(String(500), nullable=True)
     provider = Column(String(50), default="local")
     provider_id = Column(String(255), nullable=True)
+    hostel_block = Column(String(100), nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
 

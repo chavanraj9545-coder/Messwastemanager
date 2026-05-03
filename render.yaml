@@ -7,9 +7,9 @@ services:
     startCommand: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: DATABASE_URL
-        sync: false # Set this in Render Dashboard
+        value: postgresql://neondb_owner:npg_YwEkp4t7ijCy@ep-noisy-darkness-amcimztp-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require
       - key: JWT_SECRET_KEY
-        sync: false # Set this in Render Dashboard
+        value: mess-waste-management-super-secret-key-2024
       - key: FRONTEND_URL_FIREBASE
         value: https://mess-waste-manager-v2-12345.web.app
       - key: FRONTEND_URL_NETLIFY

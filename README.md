@@ -154,4 +154,4 @@ npm run dev
 
 Pruthviraj Chavan
 
-Software Engineering Student
+Software Engineering 

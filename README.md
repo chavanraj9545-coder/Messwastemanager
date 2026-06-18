@@ -1,4 +1,4 @@
-# 🍽️ Zero Waste Mess Management System
+ 🍽️ Zero Waste Mess Management System
 
 A full-stack smart mess management platform designed to reduce food wastage using attendance tracking, inventory management, analytics, and machine learning-based demand prediction.
 
